@@ -1,4 +1,4 @@
-from orator import Model
+from db import Model
 
 
 class Comments(Model):
