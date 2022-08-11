@@ -12,7 +12,7 @@ class User(Model):
         return Post
 
     @has_many
-        def comments(self):
+    def comments(self):
         from .comment import Comments
 
         return Comments
