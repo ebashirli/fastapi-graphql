@@ -1,4 +1,3 @@
-import imp
 from typing import List, Optional
 
 from graphene_pydantic import PydanticInputObjectType, PydanticObjectType
