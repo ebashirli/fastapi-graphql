@@ -4,7 +4,7 @@ DATABASES = {
     "postgres": {
         "driver": "postgres",
         "host": "localhost",
-        "database": "postgres",
+        "database": "fastapi_graphql",
         "user": "postgres",
         "password": "myPassword",
         "prefix": "",
