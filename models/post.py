@@ -7,6 +7,6 @@ class Post(Model):
 
     @has_many
     def comments(self):
-        from .comment impoert Comments
+        from .comment import Comments
 
         return Comments
