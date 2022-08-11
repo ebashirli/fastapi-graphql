@@ -4,9 +4,9 @@ DATABASES = {
     "postgres": {
         "driver": "postgres",
         "host": "localhost",
-        "database": "db_name",
-        "user": "db_user",
-        "password": "db_password",
+        "database": "postgres",
+        "user": "postgres",
+        "password": "myPassword",
         "prefix": "",
         "port": 5432
     }
